@@ -26,3 +26,14 @@ django-admin startproject btre .
 
 python manage.py help
 
+# Run server
+
+python manage.py runserver
+
+# Create Pages App
+
+python manage.py startapp pages
+
+# Coleccionar todos los archivos estáticos en una sola ruta (for deployment)
+
+python manage.py collectstatic
